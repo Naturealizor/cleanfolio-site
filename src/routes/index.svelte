@@ -1,3 +1,64 @@
+<script>
+	// const body = document.body;
+
+	// const btnTheme = document.querySelector('.fa-moon');
+	// const btnHamburger = document.querySelector('.fa-bars');
+
+	// const addThemeClass = (bodyClass, btnClass) => {
+	// 	body.classList.add(bodyClass);
+	// 	btnTheme.classList.add(btnClass);
+	// };
+
+	// const getBodyTheme = localStorage.getItem('portfolio-theme');
+	// const getBtnTheme = localStorage.getItem('portfolio-btn-theme');
+
+	// addThemeClass(getBodyTheme, getBtnTheme);
+
+	// const isDark = () => body.classList.contains('dark');
+
+	// const setTheme = (bodyClass, btnClass) => {
+	// 	body.classList.remove(localStorage.getItem('portfolio-theme'));
+	// 	btnTheme.classList.remove(localStorage.getItem('portfolio-btn-theme'));
+
+	// 	addThemeClass(bodyClass, btnClass);
+
+	// 	localStorage.setItem('portfolio-theme', bodyClass);
+	// 	localStorage.setItem('portfolio-btn-theme', btnClass);
+	// };
+
+	// const toggleTheme = () => (isDark() ? setTheme('light', 'fa-moon') : setTheme('dark', 'fa-sun'));
+
+	// btnTheme.addEventListener('click', toggleTheme);
+
+	// const displayList = () => {
+	// 	const navUl = document.querySelector('.nav__list');
+
+	// 	if (btnHamburger.classList.contains('fa-bars')) {
+	// 		btnHamburger.classList.remove('fa-bars');
+	// 		btnHamburger.classList.add('fa-times');
+	// 		navUl.classList.add('display-nav-list');
+	// 	} else {
+	// 		btnHamburger.classList.remove('fa-times');
+	// 		btnHamburger.classList.add('fa-bars');
+	// 		navUl.classList.remove('display-nav-list');
+	// 	}
+	// };
+
+	// btnHamburger.addEventListener('click', displayList);
+
+	// const scrollUp = () => {
+	// 	const btnScrollTop = document.querySelector('.scroll-top');
+
+	// 	if (body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+	// 		btnScrollTop.style.display = 'block';
+	// 	} else {
+	// 		btnScrollTop.style.display = 'none';
+	// 	}
+	// };
+
+	// document.addEventListener('scroll', scrollUp);
+</script>
+
 <body class="light" id="top">
 	<header class="header center">
 		<nav class="nav center">
@@ -44,7 +105,7 @@
 				</a>
 
 				<a
-					href="https://linkedin.com/in/rajshekhar26"
+					href="https://www.linkedin.com/in/jacob-jordan-6a440b156/"
 					aria-label="linkedin"
 					class="link link--icon"
 				>
@@ -183,9 +244,9 @@
 		box-sizing: border-box;
 	}
 
-	html {
+	/* html {
 		scroll-behavior: smooth;
-	}
+	} */
 
 	body {
 		font-family: 'Poppins', sans-serif;
@@ -203,14 +264,14 @@
 		--shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 	}
 
-	.dark {
+	/* .dark {
 		--clr-bg: #23283e;
 		--clr-bg-alt: #2a2f4c;
 		--clr-fg: #bdbddd;
 		--clr-fg-alt: #cdcdff;
 		--clr-primary: #90a0d9;
 		--shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-	}
+	} */
 
 	::-moz-selection {
 		background: var(--clr-primary);
@@ -225,8 +286,7 @@
 
 	h1,
 	h2,
-	h3,
-	h4 {
+	h3 {
 		line-height: 1.2;
 		color: var(--clr-fg-alt);
 	}
@@ -243,9 +303,9 @@
 		font-size: 1.5rem;
 	}
 
-	h4 {
+	/* h4 {
 		font-size: 1.3rem;
-	}
+	} */
 
 	ul {
 		list-style-type: none;
@@ -551,9 +611,9 @@
 			transition: width 0.2s ease-in-out;
 		}
 
-		.display-nav-list {
+		/* .display-nav-list {
 			width: 100%;
-		}
+		} */
 
 		.nav__list-item {
 			margin: 0.5em 0;
