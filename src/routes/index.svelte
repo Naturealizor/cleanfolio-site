@@ -37,16 +37,29 @@
 			<div class="about__contact center">
 				<a
 					href="https://drive.google.com/file/d/120pRQ-_zrZz-vaLJzCPONmKetFE4b9ap/view?usp=sharing"
+					aria-label="resume"
+					target="_blank"
+					rel="noopener noreferrer"
 				>
 					<span class="btn btn--outline">Resume</span>
 				</a>
 
-				<a href="https://github.com/Naturealizor" aria-label="github">
+				<a
+					href="https://github.com/Naturealizor"
+					aria-label="github"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					<i aria-hidden="true" class="fab fa-github" />
 					<span class="btn btn--outline">github</span>
 				</a>
 
-				<a href="https://www.linkedin.com/in/jacob-jordan-6a440b156/" aria-label="linkedin">
+				<a
+					href="https://www.linkedin.com/in/jacob-jordan-6a440b156/"
+					aria-label="linkedin"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					<i aria-hidden="true" class="fab fa-linkedin" />
 					<span class="btn btn--outline">linkedin</span>
 				</a>
@@ -61,14 +74,21 @@
 				<div class="project">
 					<h3>Mr. Mixer</h3>
 					<p class="project__description">
-						This is a business me and my friend, and current CEO, started in 2017 at first repairing
-						KitchenAid mixers in our local area. Over time we expanded and we started selling parts
-						to customers using the website <a
-							style="color:blue"
+						This is a business me and my friend started in 2017 at first repairing KitchenAid mixers
+						in our local area. As we started to grow the business we decided to create the one stop
+						shop for all things KitchenAid, so we started selling parts and other products to
+						customers using a site built with Squarespace. I left the business in 2020, but Mr.
+						Mixer is still continuing to grow still freelance when they need some work done.
+					</p>
+					<p>
+						<br />
+						<a
+							style="color:var(--clr-link);"
 							href="https://www.mrmixer.store/"
+							class="link link--icon"
 							target="_blank"
-							rel="noopener noreferrer">mrmixer.store</a
-						>. I left the business in 2020, but still freelance when they need some work done.
+							rel="noopener noreferrer">Mr. Mixer</a
+						>
 					</p>
 					<ul class="project__stack">
 						<li class="project__stack-item">Squarespace</li>
@@ -88,13 +108,27 @@
 				<div class="project">
 					<h3>Greenley's Painting</h3>
 					<p class="project__description">
-						Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo sapiente debitis labore
-						sed ipsam Mollitia repellat illum quod unde beatae Quis
+						This project was one of my first after relocating to Delaware. Greenley's Painting, a
+						local business, needed their Squarespace site updated. I was able to redesign the sites
+						layout, restructure the content in a more streamlined way, and improve the sites SEO
+						results.
 					</p>
+					<br />
+					<!-- link to greenley's painting website -->
+					<a
+						style="color:var(--clr-link);"
+						href="https://www.greenleyspainting.com/"
+						aria-label="greenleys painting website"
+						class="link link--icon"
+						target="_blank"
+						rel="noopener noreferrer"
+						>Greenley's Painting
+						<i aria-hidden="true" class="fas fa-external-link-alt" />
+					</a>
 					<ul class="project__stack">
-						<li class="project__stack-item">SASS</li>
-						<li class="project__stack-item">TypeScript</li>
-						<li class="project__stack-item">React</li>
+						<li class="project__stack-item">Squarespace</li>
+						<li class="project__stack-item">Google Search Console</li>
+						<li class="project__stack-item">Figma</li>
 					</ul>
 
 					<a href="https://github.com" aria-label="source code" class="link link--icon">
@@ -106,15 +140,34 @@
 				</div>
 
 				<div class="project">
-					<h3>Project 3</h3>
+					<h3>Kartuli Spirits</h3>
 					<p class="project__description">
-						Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo sapiente debitis labore
-						sed ipsam Mollitia repellat illum quod unde beatae Quis
+						This project was a contract that unfortuneately ran out of funding, so is still
+						unfinished. The tech stack I used was Figma for the design, which was mostly completed
+						before I joined, Sveltekit for the framework using Tailwinds and SCSS for styling,
+						Commerce.js for the store backend, and Netlify for deployment. Even unfinished, I think
+						it's still a good showing of what I can build using custom code from the ground up.
+						Here's the link if you'd like to check it out.
+					</p>
+					<p>
+						<br />
+						<a
+							style="color:var(--clr-link);"
+							href="https://super-ganache-e318fa.netlify.app/"
+							class="link link--icon"
+							target="_blank"
+							rel="noopener noreferrer">Kartuli Spirits</a
+						>
 					</p>
 					<ul class="project__stack">
+						<li class="project__stack-item">SvelteKit</li>
+						<li class="project__stack-item">Tailwinds</li>
 						<li class="project__stack-item">SASS</li>
-						<li class="project__stack-item">TypeScript</li>
-						<li class="project__stack-item">React</li>
+						<li class="project__stack-item">Figma</li>
+						<li class="project__stack-item">Wix</li>
+						<li class="project__stack-item">Commerce.js</li>
+						<li class="project__stack-item">Netlify</li>
+						<li class="project__stack-item">npm</li>
 					</ul>
 
 					<a href="https://github.com" aria-label="source code" class="link link--icon">
@@ -135,14 +188,15 @@
 				<li class="skills__list-item btn btn--plain">CSS</li>
 				<li class="skills__list-item btn btn--plain">SCSS</li>
 				<li class="skills__list-item btn btn--plain">JavaScript</li>
-				<li class="skills__list-item btn btn--plain">TypeScript</li>
-				<li class="skills__list-item btn btn--plain">React</li>
-				<li class="skills__list-item btn btn--plain">Redux</li>
+				<li class="skills__list-item btn btn--plain">Tailwinds CSS</li>
+				<li class="skills__list-item btn btn--plain">Figma</li>
+				<li class="skills__list-item btn btn--plain">Svelte</li>
+				<li class="skills__list-item btn btn--plain">SvelteKit</li>
 				<li class="skills__list-item btn btn--plain">Git</li>
-				<li class="skills__list-item btn btn--plain">Material UI</li>
-				<li class="skills__list-item btn btn--plain">Jest</li>
-				<li class="skills__list-item btn btn--plain">Enzyme</li>
-				<li class="skills__list-item btn btn--plain">CI/CD</li>
+				<li class="skills__list-item btn btn--plain">Netlify</li>
+				<li class="skills__list-item btn btn--plain">Ecommerce</li>
+				<li class="skills__list-item btn btn--plain">Squarespace</li>
+				<li class="skills__list-item btn btn--plain">Wix</li>
 			</ul>
 		</section>
 
@@ -157,15 +211,15 @@
 
 	<footer class="footer">
 		<a href="https://github.com/Naturealizor/cleanfolio-site" class="link footer__link">
-			Created By Jacob Jordan .
+			Created By Jacob Jordan
 		</a>
 		<hr />
-		<a
+		<!-- <a
 			style="bottom:0%; top:2em;"
 			href="https://github.com/rajshekhar26/cleanfolio-minimal"
 			aria-label="source code"
 			class="link footer__link">Source Code</a
-		>
+		> -->
 	</footer>
 
 	<div class="scroll-container">
@@ -203,7 +257,8 @@
 		--clr-bg-alt: #fff;
 		--clr-fg: #555;
 		--clr-fg-alt: #444;
-		--clr-primary: #2978b5;
+		--clr-primary: #6217ae;
+		--clr-link: #793ed3;
 		--shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 	}
 	/* .dark {
@@ -358,7 +413,7 @@
 		max-width: 1100px;
 		width: 95%;
 		margin: 0 auto;
-		/* justify-content: space-around; */
+		justify-content: space-between;
 		/* change flex direction so nav is on the right side */
 		flex-direction: row-reverse;
 	}
@@ -404,7 +459,8 @@
 	.about__contact {
 		margin-top: 2.4em;
 	}
-	.about .link--icon {
+	.about,
+	.link--icon {
 		margin-right: 0.8em;
 	}
 	.about .btn--outline {
@@ -490,12 +546,11 @@
 			padding: 1em 1em;
 			position: absolute;
 			right: 0;
-			/* left: 0; */
-			/* top: 5em; */
 			background-color: var(--clr-bg);
-			/* width: 0; */
+			width: 45%;
 			overflow: hidden;
 			transition: width 0.2s ease-in-out;
+			justify-content: space-between;
 		}
 
 		/* .display-nav-list {
@@ -513,7 +568,6 @@
 
 		.about,
 		.about__desc {
-			/* align-items: flex-start; */
 			margin-top: 2em;
 			/* center text */
 			text-align: center;
