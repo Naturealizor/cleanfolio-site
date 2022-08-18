@@ -1,3 +1,7 @@
+<script>
+	import DarkButton from './darkButton.svelte';
+</script>
+
 <body class="light" id="top">
 	<header class="header center">
 		<nav class="nav center">
@@ -12,6 +16,8 @@
 					<a class="link link--nav" href="#contact">Contact</a>
 				</li>
 			</ul>
+			<!-- place DarkButton -->
+			<DarkButton />
 
 			<button type="button" aria-label="toggle theme" class="btn btn--icon">
 				<i aria-hidden="true" id="btn-theme" class="fas fa-moon" />
@@ -29,9 +35,15 @@
 			<h1>Hi, I am <span class="about__name">Jacob Jordan.</span></h1>
 			<h2 class="about__role">A Front end Developer.</h2>
 			<p class="about__desc">
-				Consectetur neque sed quam molestiae consectetur nesciunt sit alias Vitae libero perferendis
-				reprehenderit optio veritatis Accusantium at voluptatum cumque temporibus et Explicabo iste
-				porro quis numquam distinctio Repellendus adipisci nam perferendis amet eaque hic Voluptates
+				I am a Front end Developer based in the United States. I have a passion for creating
+				websites and applications that are fast, responsive, and user friendly.
+			</p>
+			<p>
+				So that top part was writting by Github CoPiolot, which was so surprising to see I had to
+				leave it in. Anyways, I also love to rock climb and hike when I get the chance, and love
+				messing around with new and different web tech. I'm currently working with Sveltekit on most
+				of my project using Tailwinds CSS for styling. If you're looking for some help on a project
+				or with your website feel free to reach out.
 			</p>
 
 			<div class="about__contact center">
@@ -245,6 +257,19 @@
 		font-size: inherit;
 		box-shadow: none;
 		box-sizing: border-box;
+	}
+	:global(body) {
+		--clr-bg: #23283e;
+		--clr-bg-alt: #2a2f4c;
+		--clr-fg: #bdbddd;
+		--clr-fg-alt: #cdcdff;
+		--clr-primary: #90a0d9;
+		--shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+		transition: background-color 0.3s;
+	}
+	:global(body.dark-mode) {
+		background-color: #1d3040;
+		color: #bfc2c7;
 	}
 	body {
 		font-family: 'Poppins', sans-serif;
