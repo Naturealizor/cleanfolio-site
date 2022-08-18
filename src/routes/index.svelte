@@ -38,7 +38,8 @@
 				I am a Front end Developer based in the United States. I have a passion for creating
 				websites and applications that are fast, responsive, and user friendly.
 			</p>
-			<p>
+			<br />
+			<p class="about__desc">
 				So that top part was writting by Github CoPiolot, which was so surprising to see I had to
 				leave it in. Anyways, I also love to rock climb and hike when I get the chance, and love
 				messing around with new and different web tech. I'm currently working with Sveltekit on most
