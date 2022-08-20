@@ -35,16 +35,10 @@
 			<h1>Hi, I am <span class="about__name">Jacob Jordan.</span></h1>
 			<h2 class="about__role">A Front end Developer.</h2>
 			<p class="about__desc">
-				I am a Front end Developer based in the United States. I have a passion for creating
-				websites and applications that are fast, responsive, and user friendly.
-			</p>
-			<br />
-			<p class="about__desc">
-				So that top part was writting by Github CoPiolot, which was so surprising to see I had to
-				leave it in. Anyways, I also love to rock climb and hike when I get the chance, and love
-				messing around with new and different web tech. I'm currently working with Sveltekit on most
-				of my project using Tailwinds CSS for styling. If you're looking for some help on a project
-				or with your website feel free to reach out.
+				I am currently based in Delaware and love messing around with new and different web tech.
+				I'm currently working with Sveltekit on most of my project using Tailwinds CSS for styling.
+				I also love to rock climb and hike when I get the chance. If you're looking for some help
+				website or project, or if you have any good spots to climb up here, feel free to reach out.
 			</p>
 
 			<div class="about__contact center">
