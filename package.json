@@ -12,19 +12,19 @@
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/adapter-netlify": "^1.0.0-next.71",
 		"@sveltejs/kit": "next",
-		"autoprefixer": "^10.4.8",
+		"autoprefixer": "10.4.12",
 		"concurrently": "^7.3.0",
 		"cross-env": "^7.0.3",
-		"eslint": "8.22.0",
+		"eslint": "8.25.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-svelte3": "^4.0.0",
-		"postcss": "8.4.16",
+		"postcss": "8.4.19",
 		"prettier": "^2.6.2",
-		"prettier-plugin-svelte": "^2.7.0",
-		"svelte": "^3.44.0",
-		"svelte-preprocess": "^4.10.7",
+		"prettier-plugin-svelte": "2.9.0",
+		"svelte": "3.51.0",
+		"svelte-preprocess": "^5.0.0",
 		"tailwindcss": "^3.1.7",
-		"vite": "3.0.9"
+		"vite": "3.1.8"
 	},
 	"type": "module"
 }
