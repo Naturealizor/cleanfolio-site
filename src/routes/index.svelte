@@ -6,7 +6,7 @@
 	<header class="header center">
 		<nav class="nav center">
 			<ul class="nav__list center">
-				<li class="nav__list-item">
+				<li class="nav__list-item p-2">
 					<a class="link link--nav" href="#projects">Projects</a>
 				</li>
 				<li class="nav__list-item">
@@ -81,11 +81,12 @@
 				<div class="project">
 					<h3>Mr. Mixer</h3>
 					<p class="project__description">
-						This is a business me and my friend started in 2017 at first repairing KitchenAid mixers
-						in our local area. As we started to grow the business we decided to create the one stop
-						shop for all things KitchenAid, so we started selling parts and other products to
-						customers using a site built with Squarespace. I left the business in 2020, but Mr.
-						Mixer is still continuing to grow still freelance when they need some work done.
+						This is a business me and a friend of mine started in 2017 repairing KitchenAid mixers
+						for businesses in our local area. As we started to grow the business we decided to
+						create the one stop shop for all things KitchenAid, so we started selling parts and
+						other products to customers using a site built with Squarespace. I left the business in
+						2020, but Mr. Mixer is continuing to grow, and I still freelance for them when they need
+						some work done.
 					</p>
 					<p>
 						<br />
@@ -116,9 +117,10 @@
 					<h3>Greenley's Painting</h3>
 					<p class="project__description">
 						This project was one of my first after relocating to Delaware. Greenley's Painting, a
-						local business, needed their Squarespace site updated. I was able to redesign the sites
-						layout, restructure the content in a more streamlined way, and improve the sites SEO
-						results.
+						local business, needed their Squarespace site updated. Using Squarespaces editing tool
+						and some custom CSS I was able to redesign the sites layout, restructure the content in
+						a more streamlined way, and improve the sites overall SEO. By doing this I was able to
+						help the business grow and get more customers through Google searches.
 					</p>
 					<br />
 					<!-- link to greenley's painting website -->
@@ -134,6 +136,7 @@
 					</a>
 					<ul class="project__stack">
 						<li class="project__stack-item">Squarespace</li>
+						<li class="project__stack-item">Custom CSS</li>
 						<li class="project__stack-item">Google Search Console</li>
 						<li class="project__stack-item">Figma</li>
 					</ul>
@@ -184,6 +187,41 @@
 						<i aria-hidden="true" class="fas fa-external-link-alt" />
 					</a>
 				</div>
+
+				<div class="project">
+					<h3>Charlie's Painting, LLC</h3>
+					<p class="project__description">
+						Charlie's Painting, LLC is a small business out of Harrington, DE. They recently had
+						some issues with their website that was setup through Google, so they contracted me to
+						build them a new website for their company. I wanted to give them easy access to the
+						site so they could make any changes or add new photos, so I built the site using
+						Squarespace. I also wanted to make sure the site was mobile friendly, so I used the
+						Squarespace mobile editor to make sure it looked good on all devices. Check out their
+						site with the link below!
+					</p>
+					<p>
+						<br />
+						<a
+							style="color:var(--clr-link);"
+							href="https://www.charliespaintingllc.com/"
+							class="link link--icon"
+							target="_blank"
+							rel="noopener noreferrer">Charlie's Painting, LLC</a
+						>
+					</p>
+					<ul class="project__stack">
+						<li class="project__stack-item">Squarespace</li>
+						<li class="project__stack-item">Custom CSS</li>
+						<li class="project__stack-item">Figma</li>
+					</ul>
+
+					<a href="https://github.com" aria-label="source code" class="link link--icon">
+						<i aria-hidden="true" class="fab fa-github" />
+					</a>
+					<a href="https://example.com" aria-label="live preview" class="link link--icon">
+						<i aria-hidden="true" class="fas fa-external-link-alt" />
+					</a>
+				</div>
 			</div>
 		</section>
 
@@ -218,8 +256,14 @@
 
 	<footer class="footer">
 		<a href="https://github.com/Naturealizor/cleanfolio-site" class="link footer__link">
-			Created By Jacob Jordan
+			Created By Jacob Jordan.
 		</a>
+		<p>
+			Credit to <a
+				href="https://github.com/rajshekhar26/cleanfolio-minimal"
+				class="link footer__link">rajshekhar26</a
+			> for the base design.
+		</p>
 		<hr />
 		<!-- <a
 			style="bottom:0%; top:2em;"
@@ -452,10 +496,12 @@
 	}
 	.nav__list {
 		margin-right: 1.5em;
-		display: flex;
+		/* display: flex; */
+		justify-content: space-around;
 	}
 	.nav__list-item {
 		margin-left: 1.5em;
+		padding: 3px;
 	}
 	.nav__hamburger {
 		display: none;
