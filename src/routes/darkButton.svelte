@@ -21,5 +21,11 @@
 	:global(body.dark-mode) button {
 		background-color: #0084f6;
 		color: white;
+		--clr-bg: #23283e;
+		--clr-bg-alt: #2a2f4c;
+		--clr-fg: #ffffff;
+		--clr-fg-alt: #ffffff;
+		--clr-primary: #90a0d9;
+		--shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 	}
 </style>

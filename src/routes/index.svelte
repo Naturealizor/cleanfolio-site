@@ -2,7 +2,7 @@
 	import DarkButton from './darkButton.svelte';
 </script>
 
-<body class="light" id="top">
+<body id="top">
 	<header class="header center">
 		<nav class="nav center">
 			<ul class="nav__list center">
@@ -32,8 +32,8 @@
 	<main>
 		<!-- About -->
 		<div class="about center">
-			<h1>Hi, I am <span class="about__name">Jacob Jordan.</span></h1>
-			<h2 class="about__role">A Front end Developer.</h2>
+			<h1>Hi, I am <span class="about__name">Jacob Jordan</span></h1>
+			<h2 class="about__role">A Front end Developer</h2>
 			<p class="about__desc">
 				I am currently based in Delaware and love messing around with new and different web tech.
 				I'm currently working with Sveltekit on most of my project using Tailwinds CSS for styling.
@@ -256,15 +256,15 @@
 
 	<footer class="footer">
 		<a href="https://github.com/Naturealizor/cleanfolio-site" class="link footer__link">
-			Created By Jacob Jordan.
+			Created By Jacob Jordan
 		</a>
-		<p>
+		<!-- <p>
 			Credit to <a
 				href="https://github.com/rajshekhar26/cleanfolio-minimal"
 				class="link footer__link">rajshekhar26</a
 			> for the base design.
-		</p>
-		<hr />
+		</p> -->
+		<!-- <hr /> -->
 		<!-- <a
 			style="bottom:0%; top:2em;"
 			href="https://github.com/rajshekhar26/cleanfolio-minimal"
@@ -290,33 +290,21 @@
 		margin: 0;
 		border: 0;
 		outline: 0;
-		background-color: inherit;
-		color: inherit;
+		/* background-color: inherit; */
+		/* color: inherit; */
 		font-family: inherit;
 		font-size: inherit;
 		box-shadow: none;
 		box-sizing: border-box;
+		/* --clr-bg: #fcfcfc;
+		--clr-bg-alt: #fff;
+		--clr-fg: #555;
+		--clr-fg-alt: #444;
+		--clr-primary: #6217ae;
+		--clr-link: #793ed3;
+		--shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
 	}
 	:global(body) {
-		--clr-bg: #23283e;
-		--clr-bg-alt: #2a2f4c;
-		--clr-fg: #bdbddd;
-		--clr-fg-alt: #cdcdff;
-		--clr-primary: #90a0d9;
-		--shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-		transition: background-color 0.3s;
-	}
-	:global(body.dark-mode) {
-		background-color: #1d3040;
-		color: #bfc2c7;
-	}
-	body {
-		font-family: 'Poppins', sans-serif;
-		line-height: 1.5;
-		color: var(--clr-fg);
-		background-color: var(--clr-bg);
-	}
-	.light {
 		--clr-bg: #fcfcfc;
 		--clr-bg-alt: #fff;
 		--clr-fg: #555;
@@ -325,7 +313,32 @@
 		--clr-link: #793ed3;
 		--shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 	}
-	/* .dark {
+	:global(body.dark-mode) {
+		background-color: #1d3040;
+		color: #bfc2c7;
+		--clr-bg: #23283e;
+		--clr-bg-alt: #2a2f4c;
+		--clr-fg: #ffffff;
+		--clr-fg-alt: #fbfbfb;
+		--clr-primary: #90a0d9;
+		--shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+	}
+	/* body {
+		font-family: 'Poppins', sans-serif;
+		line-height: 1.5;
+		color: var(--clr-fg);
+		background-color: var(--clr-bg);
+	} */
+	/* .light-mode {
+		--clr-bg: #fcfcfc;
+		--clr-bg-alt: #fff;
+		--clr-fg: #555;
+		--clr-fg-alt: #444;
+		--clr-primary: #6217ae;
+		--clr-link: #793ed3;
+		--shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	} */
+	/* .dark-mode {
 		--clr-bg: #23283e;
 		--clr-bg-alt: #2a2f4c;
 		--clr-fg: #bdbddd;
@@ -346,7 +359,7 @@
 	h2,
 	h3 {
 		line-height: 1.2;
-		color: var(--clr-fg-alt);
+		/* color: var(--clr-fg-alt); */
 	}
 	h1 {
 		font-size: 4rem;
@@ -379,7 +392,6 @@
   buttons and links
 ===================*/
 	.link {
-		color: var(--clr-primary);
 		padding: 0 0 0.3em 0;
 		position: relative;
 	}
@@ -401,12 +413,10 @@
 		width: 100%;
 	}
 	.link--nav {
-		color: var(--clr-fg);
 		text-transform: lowercase;
 		font-weight: 500;
 	}
 	.link--icon {
-		color: var(--clr-fg);
 		font-size: 1.2rem;
 	}
 	.btn {
@@ -496,7 +506,6 @@
 	}
 	.nav__list {
 		margin-right: 1.5em;
-		/* display: flex; */
 		justify-content: space-around;
 	}
 	.nav__list-item {
@@ -562,7 +571,6 @@
 		margin: 0.5em;
 		font-weight: 500;
 		font-size: 0.8rem;
-		color: var(--clr-fg-alt);
 	}
 	.project .link--icon {
 		margin-left: 0.5em;
@@ -582,8 +590,8 @@
 		flex-direction: column;
 	}
 	.footer {
-		padding: 3em 0;
-		margin-top: 4em;
+		padding: 1em 0;
+		margin-top: 2em;
 		text-align: center;
 	}
 	.footer__link {
